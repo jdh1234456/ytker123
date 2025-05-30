@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+
+    display: flex;
+}
+.heading{
+    background-color: rgb(47, 176, 4);
+    border: solid 5px;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.refund{
+    border: 3px solid black;
+    width: 155px;
+    height: 50px;
+background-color: green;
+
+}
+
+body{
+    background-color: rgb(3, 90, 3);
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color: rgb(47, 176, 4);
+    border: solid 5px;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading .name{
+    
+}
+
+.dak{
+    height: 100%;
+    width: 100px;
+    border: solid;
+    background-color: green;
+}
+
+.dak img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.bunkers{
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.bunkers button{
+    width: 100%;
+    background-color: green;
+    border: solid;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(1, 81, 1);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+}
+
+.logo{
+    display: flex;
+    width: 500px;
+}
+
+header nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+header nav div{
+    flex-grow: 1; 
+    background-color: green;
+    border: solid; 
+}
+
+header nav button{
+    height: 100%;
+    width: 100%; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.content{
+    background-color: rgb(1, 81, 1);
+}
+
+.popup{
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(72, 72, 72);
+    left: calc(50% - 500px);
+    top: calc(50% - 350px);
+    border-radius: 40px;
+}
+
+.close-btn{
+    width: 32px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(92, 92, 92);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 101;
+}
+
+.hidden{
+    display: none;;
+}
+
+.name1{
+    color: #004706;
+   padding: 10px;
+   position: absolute;
+   right: 400px;
+}
+
+.bat{
+    width: 500px;
+    height: 100px;
+    border-radius: 40px;
+    position: absolute;
+    right: 210px;
+    top: 600px;
+}
+
+.pad1{
+    width: 80%;
+    height: 70px;
+    border-radius: 40px;
+    position: absolute;
+    top: 250px;
+}
+
+.pad3{
+    width: 80%;
+    height: 70px;
+    border-radius: 40px;
+    position: absolute;
+    top: 400px;
+}
+
+.pad2{
+    position: absolute;
+    top: 350px;
+}
+
+.pad4{
+    position: absolute;
+    top: 190px;
+}
+
+.hidden2{
+    display: none;
+}
+
+.complaint-window{
+     width: 1000px;
+    height: 700px;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(72, 72, 72);
+    left: calc(50% - 500px);
+    top: calc(50% - 350px);
+    border-radius: 40px;
+}
+
